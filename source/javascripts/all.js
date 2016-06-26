@@ -1,3 +1,4 @@
+/*! bullgit logorator */
 'use strict';
 var imgPath = 'http://res.cloudinary.com/cloudyvj/image/upload/';
 var version = 'v1466799358';
@@ -24,7 +25,7 @@ document.getElementById('input').addEventListener('input', function (e, x) {
     };
 });
 
-// bullgit badge.js v2
+/*! bullgit badge.js v2*/
 (function (size,image,url,alt) {
   var a = document.createElement('a');
   var img = document.createElement('img');
