@@ -27,8 +27,8 @@ body {
 }
 
 .container {
-  max-width: 1200px;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 header {
   padding: 0 1em;
@@ -62,6 +62,11 @@ input[type="text"] {
 .controls{
   padding: 16px;
 }
+
+.images {
+  padding-bottom:60px;
+}
+
 .img {
   width: 60px;
   height: 60px;
@@ -82,14 +87,8 @@ input[type="text"] {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  text-align: center;
-  padding: 2em 0;
-
+  flex-shrink: 0;
+  padding: 10px;
   a {
     text-decoration: none;
     color: #333;
